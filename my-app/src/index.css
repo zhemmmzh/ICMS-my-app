@@ -1,0 +1,71 @@
+/* src/router/Layout.css */
+.semi-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* 顶部导航栏 */
+.navbar-top {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* 底部导航栏 */
+.navbar-bottom {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* 中间内容部分 */
+.semi-layout-content {
+    flex: 1;
+    margin-top: 50px; /* 顶部导航栏的高度 */
+    margin-bottom: 50px; /* 底部导航栏的高度 */
+    overflow-y: auto; /* 使内容部分可滚动 */
+    padding: 20px;
+    background-color: var(--semi-color-bg-0); /* 确保背景颜色一致 */
+}
+
+/* 活动容器 */
+.activity-container {
+    padding: 20px;
+}
+
+.activity-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+}
+
+.star-rating label {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star {
+    transition: color 200ms;
+}

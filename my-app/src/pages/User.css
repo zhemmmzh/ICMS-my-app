@@ -1,0 +1,54 @@
+/* User.css */
+
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+
+.main-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.components-transfer-demo-source-item, .components-transfer-demo-selected-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ebedf0;
+}
+
+.components-transfer-demo-selected-item {
+    background-color: #f7f8f9;
+}
+
+.info {
+    margin-left: 16px;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.email {
+    font-size: 14px;
+    color: #606266;
+}
+
+.semi-right-item-drag-handler {
+    margin-right: 16px;
+    cursor: move;
+}
+
+
+.Transfer-container {
+    width: 100%;
+    height: 100%;
+}
