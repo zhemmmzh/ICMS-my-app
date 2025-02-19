@@ -21,7 +21,7 @@ const App = () => {
                         <Route path="/activity" element={<LayoutComponent><Activity /></LayoutComponent>} />
                         <Route path="/news" element={<LayoutComponent><News /></LayoutComponent>} />
                         <Route path="/user" element={<LayoutComponent><User /></LayoutComponent>} />
-                        <Route path="/" element={<LayoutComponent></LayoutComponent>} />
+                        <Route path="/" element={<Login/>} />
                         <Route path="*" element={<NotFound/>} />
                         <Route path="login" element={<Login/>} />
                     </Routes>

@@ -5,7 +5,7 @@
     height: 100vh;
 }
 
-/* 顶部导航栏 */
+
 .navbar-top {
     background-color: #333;
     color: white;
@@ -17,7 +17,7 @@
     z-index: 1000;
 }
 
-/* 底部导航栏 */
+
 .navbar-bottom {
     background-color: #333;
     color: white;
@@ -29,17 +29,17 @@
     z-index: 1000;
 }
 
-/* 中间内容部分 */
+
 .semi-layout-content {
     flex: 1;
-    margin-top: 50px; /* 顶部导航栏的高度 */
-    margin-bottom: 50px; /* 底部导航栏的高度 */
-    overflow-y: auto; /* 使内容部分可滚动 */
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    overflow-y: auto; 
     padding: 20px;
-    background-color: var(--semi-color-bg-0); /* 确保背景颜色一致 */
+    background-color: var(--semi-color-bg-0); 
 }
 
-/* 活动容器 */
+
 .activity-container {
     padding: 20px;
 }
